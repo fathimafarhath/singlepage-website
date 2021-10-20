@@ -5,7 +5,7 @@ function Features() {
     return (
         <div id="features">
             <div className="features-model">
-                <img src={featureimage} alt="feature-image"/>
+                <img src={featureimage} alt="feature"/>
             </div>
             <div className="features-text">
                 <h2>Features</h2>

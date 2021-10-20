@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 function Subscribe() {
     return (
@@ -6,7 +7,8 @@ function Subscribe() {
             <h3>Subscribe</h3>
             <div className="subscribe-input">
                 <input type="email" placeholder="example@gmail.com" />
-                <a href="#">Continue</a>
+                {/* <a href="#">Continue</a> */}
+                <Link to="#">Continue</Link>
             </div>
             
         </div>

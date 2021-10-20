@@ -10,7 +10,7 @@ function Navbar() {
                     <img src={logo} alt="logo" />;
                 </Link>
                 <input className="menu-btn" type="checkbox" id="menu-btn"/>
-                <label className="menu-icon" for="menu-btn">
+                <label className="menu-icon" htmlFor="menu-btn">
                     <span className="nav-icon"></span>
                 </label>
                 <ul className="menu">
