@@ -14,11 +14,11 @@ function Navbar() {
                     <span className="nav-icon"></span>
                 </label>
                 <ul className="menu">
-                    <li><Link to="main" className="active">Home</Link></li>
-                    <li><Link to="main">Features</Link></li>
-                    <li><Link to="main">Services</Link></li>
-                    <li><Link to="main">Subscribe</Link></li>
-                    <li><Link to="main">Contact</Link></li>
+                    <li><Link to="main" className="active" smooth={true} duration={1000}>Home</Link></li>
+                    <li><Link to="features" smooth={true} duration={1000} >Features</Link></li>
+                    <li><Link to="services" smooth={true} duration={1000} >Services</Link></li>
+                    <li><Link to="subsribe" smooth={true} duration={1000} >Subscribe</Link></li>
+                    <li><Link to="contact" smooth={true} duration={1000} >Contact</Link></li>
                 </ul>
 
                 <Link to="#" className="hey"> To App</Link>
